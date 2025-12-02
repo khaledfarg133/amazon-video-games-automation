@@ -1,28 +1,35 @@
-# Amazon Price Filter & Basket Validation – Selenium / TestNG (Maven)
+# Amazon Price Filter & Checkout Automation – Selenium / TestNG (Maven)
 
 ## 📌 Overview
 
-This project is an automated UI testing framework designed to validate product listing, price filtering, cart operations, and basket subtotal accuracy on **Amazon**.  
-It is built using **Java 21**, **Selenium WebDriver**, **TestNG**, and **Maven**.
+This project is a fully automated UI testing framework for **Amazon**, designed to cover:
 
-### Main workflow automated by the test:
+- Product listing scanning  
+- Price filtering  
+- Add-to-Cart logic  
+- Basket validation  
+- Address creation  
+- Payment page navigation  
 
-1. Log in to Amazon with valid credentials.
-2. Navigate to a predefined Amazon category.
-3. Scan product listing pages and extract product titles + prices.
-4. Filter products based on a configurable price limit.
-5. Add all eligible products to the cart:
-   - First attempt from the listing card.
-   - If unavailable, open product details in a new tab.
-6. Open the Basket page.
-7. Read all basket items (name, price, quantity).
-8. Calculate subtotal from items and compare it with the UI subtotal.
+It uses **Java 21**, **Selenium WebDriver**, **TestNG**, and **Maven**.
+
+### 🔄 Full Automated Workflow
+
+1. Log in using valid Amazon credentials.  
+2. Navigate to the “All Video Games” department.  
+3. Read all product cards (titles + prices) across multiple pages.  
+4. Filter products under a configurable price limit.  
+5. Add eligible products to cart:
+   - Try from listing
+   - If unavailable, open product details page  
+6. Open the basket in a new tab.  
+7. Read all basket items (name, price, quantity).  
+8. Recalculate subtotal and validate against the UI subtotal.  
 9. Compare:
-   - Filtered items  
-   - Items added to cart  
-   - Items appearing in basket  
-
-Ensures consistency between UI pages and cart behavior.
+   - Filtered list  
+   - Added-to-cart list  
+   - Basket contents  
+10. Proceed to checkout → Add new address → Navigate to payment page.  
 
 ---
 
@@ -34,20 +41,19 @@ Ensures consistency between UI pages and cart behavior.
 | Maven | 3.8+ |
 | Selenium WebDriver | 4.29.0 |
 | TestNG | 7.10.2 |
-| Allure Reporting | 2.24.0 |
+| Allure | 2.24.0 |
 | Logging | SLF4J + Log4j2 |
-| JSON handling | Gson / Jackson / org.json / JSON Path |
+| JSON Handling | Gson / Jackson / JSON Path |
 | Excel | Apache POI |
-| Screenshots | Selenium Shutterbug |
-| Video recording | Monte Screen Recorder |
+| Screenshots | Shutterbug |
+| Video Recording | Monte Screen Recorder |
 | AOP | AspectJ |
 
-All dependencies are automatically downloaded by Maven from `pom.xml`.
+All dependencies are handled automatically by Maven through `pom.xml`.
 
 ---
 
 ## 📁 Project Structure
-## Project Structure
 
 ```text
 .
@@ -65,64 +71,143 @@ All dependencies are automatically downloaded by Maven from `pom.xml`.
     │   │       ├── P2_HomePage.java
     │   │       ├── P3_ProductListingPage.java
     │   │       ├── P4_ProductDetailsPage.java
-    │   │       └── P5_BasketPage.java
+    │   │       ├── P5_BasketPage.java
+    │   │       ├── P6_AddressPage.java
+    │   │       └── P7_PaymentPage.java
     │   └── resources
     │       ├── LoginData.json
+    │       ├── AddressData.json
     │       └── *.properties
     └── test
         └── java
             └── TestCase
                 └── TC1_VideoGamesPriceFilterAndBasketValidation.java
 
----
+🧩 Key Page Objects
+P1_LoginPage
 
-## 🧩 Key Page Objects
+Handles Amazon login:
 
-### **P1_LoginPage**
-Handles Amazon login flow:
-- Reading login data from JSON (phone/email + password)
-- Entering credentials
-- Submitting login form
-- Asserting login success
+Reads phone/password from JSON
 
-### **P2_HomePage**
-Responsible for:
-- Navigating to Amazon homepage
-- Interacting with main menu
-- Navigating to the target test category (example: Video Games)
+Fills login form
 
-### **P3_ProductListingPage**
-- Reads product names and prices
-- Applies price filtering
-- Attempts Add to Cart from listing
-- Opens product details if needed
-- Returns:
-  - `eligibleProducts`
-  - `addedToCartProducts`
+Submits & asserts success
 
-### **P4_ProductDetailsPage**
-- Handles Add to Cart from product details page
-- Supports “See All Buying Options”
-- Confirms success through “Added to cart” page
+P2_HomePage
 
-### **P5_BasketPage**
-- Opens basket in a new tab
-- Reads basket items into structured objects
-- Calculates subtotal
-- Compares with UI subtotal
-- Compares lists (filtered vs added vs basket)
+Opens Amazon homepage
 
----
+Navigates to “All Video Games”
 
-## ⚙️ Configuration
+Applies test filters
 
-The framework reads all test data from a JSON file located in:
+P3_ProductListingPage
+
+Reads product names & prices
+
+Applies price filtering
+
+Adds eligible products to cart (listing → details if needed)
+
+Returns:
+
+eligibleProducts
+
+addedToCartProducts
+
+P4_ProductDetailsPage
+
+Adds products when listing button is unavailable
+
+Supports:
+
+Add to Cart
+
+See All Buying Options
+
+Verifies "Added to cart"
+
+P5_BasketPage
+
+Opens basket in new tab
+
+Reads basket items:
+
+Name
+
+Unit price
+
+Quantity
+
+Line total
+
+Recalculates subtotal
+
+Compares:
+
+Filter list
+
+Added-to-cart list
+
+Basket contents
+
+Proceeds to checkout → Address Page
+
+P6_AddressPage
+
+Manages full address entry process:
+
+Opens “Add new address” popup
+
+Inputs:
+
+Full name
+
+Phone
+
+Street
+
+Building
+
+City
+
+Landmark
+
+Selects address type:
+
+Home
+
+Office
+
+Marks as default address
+
+Saves address and moves to payment page
+
+Provides a helper method:
+
+addNewAddress(fullName, phone, street, building, city, landmark, isHome, setAsDefault)
 
 
+Executes full end-to-end address flow in 1 method.
 
-### JSON Example Used by the Framework
+P7_PaymentPage
 
-```json
+Detects payment page using header:
+“Select a payment method”
+
+Confirms checkout flow reached the final phase
+
+Ready for future extension (add card, choose payment method, etc.)
+
+⚙️ Configuration
+
+All test data is read dynamically from:
+
+src/main/resources/LoginData.json
+src/main/resources/AddressData.json
+
+JSON Example
 {
   "LoginData": {
     "Phone": "1158228860",
@@ -134,6 +219,3 @@ The framework reads all test data from a JSON file located in:
     "priceLimit": "15000.0"
   }
 }
-
-
-

@@ -1,0 +1,11 @@
+[INFO] - [02-12-2025 08:53:56] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [02-12-2025 08:54:03] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [02-12-2025 08:54:06] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [02-12-2025 08:54:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 08:54:07] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 08:54:07] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .a-button-text.a-declarative
+[WARN] - [02-12-2025 08:54:09] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: //span[normalize-space()='+20']
+[INFO] - [02-12-2025 08:54:09] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [02-12-2025 08:54:10] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 08:54:10] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 08:54:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
