@@ -47,22 +47,32 @@ All dependencies are automatically downloaded by Maven from `pom.xml`.
 ---
 
 ## 📁 Project Structure
+## Project Structure
+
+```text
 .
 ├── pom.xml
 ├── README.md
 └── src
-├── main
-│ ├── java
-│ │ ├── AutomationFramework/Utilities
-│ │ └── Pages
-│ └── resources
-│ ├── LoginData.json
-│ └── *.properties
-└── test
-└── java
-└── TestCase
-└── TC1_VideoGamesPriceFilterAndBasketValidation.java
-
+    ├── main
+    │   ├── java
+    │   │   ├── AutomationFramework
+    │   │   │   └── Utilities
+    │   │   │       ├── DataUtils.java
+    │   │   │       └── Utility.java
+    │   │   └── Pages
+    │   │       ├── P1_LoginPage.java
+    │   │       ├── P2_HomePage.java
+    │   │       ├── P3_ProductListingPage.java
+    │   │       ├── P4_ProductDetailsPage.java
+    │   │       └── P5_BasketPage.java
+    │   └── resources
+    │       ├── LoginData.json
+    │       └── *.properties
+    └── test
+        └── java
+            └── TestCase
+                └── TC1_VideoGamesPriceFilterAndBasketValidation.java
 
 ---
 
