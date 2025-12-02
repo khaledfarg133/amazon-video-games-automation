@@ -1,15 +1,9 @@
 package TestCase;
 
-import AutomationFramework.listeners.TestNGListeners;
 import Base.BaseTest;
-import Pages.P1_LoginPage;
-import Pages.P2_HomePage;
-import Pages.P3_ProductListingPage;
-import Pages.P5_BasketPage;
+import Pages.*;
 import Pages.P3_ProductListingPage.ListingResult;
-
 import io.qameta.allure.Step;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -17,18 +11,21 @@ import java.util.List;
 
 import static AutomationFramework.Utilities.DataUtils.getJsonValue;
 
-//@Listeners(TestNGListeners.class)
 public class TC1_VideoGamesPriceFilterAndBasketValidation extends BaseTest {
 
     @Test
-
-    public void userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket() throws IOException {
+    public void userCanFilterVideoGames_AddEligibleProductsToCart_AndCompleteCheckoutFlow() throws IOException {
+        // 1) Login
         loginWithValidCredentials();
+
+        // 2) Navigate + Filter
         navigateToVideoGamesAndApplyFilter();
 
+        // 3) Listing + Add to Cart
         ListingResult listingResult = collectEligibleProductsAndAddToCart();
 
-        validateBasketContentAndSubtotal(listingResult);
+        // 4) Basket + Address + Payment
+        proceedFromBasketToAddressAndPayment(listingResult);
     }
 
     // ======================
@@ -37,8 +34,15 @@ public class TC1_VideoGamesPriceFilterAndBasketValidation extends BaseTest {
     @Step("Login with valid Amazon credentials")
     private void loginWithValidCredentials() throws IOException {
         P1_LoginPage loginPage = new P1_LoginPage(getDriver());
-        String phone = getJsonValue("LoginData", "LoginData.Phone");
+
+
+        String phone    = getJsonValue("LoginData", "LoginData.Phone");
         String password = getJsonValue("LoginData", "LoginData.Password");
+
+        // لو أنت عامل getJsonValue يتعامل مع path كامل زي "LoginData.Phone"
+        // يبقى رجّعها زى ما كانت:
+        // String phone    = getJsonValue("LoginData", "LoginData.Phone");
+        // String password = getJsonValue("LoginData", "LoginData.Password");
 
         loginPage.loginAccount(phone, password);
     }
@@ -63,22 +67,53 @@ public class TC1_VideoGamesPriceFilterAndBasketValidation extends BaseTest {
     }
 
     // ======================
-    // 4) Basket Validation
+    // 4) Basket + Address + Payment
     // ======================
-    @Step("Validate basket content and subtotal against filtered listing result")
-    private void validateBasketContentAndSubtotal(ListingResult listingResult) {
+    @Step("Open basket, validate content, then go to address and payment pages")
+    private void proceedFromBasketToAddressAndPayment(ListingResult listingResult) throws IOException {
+
         P5_BasketPage basketPage = new P5_BasketPage(getDriver());
 
+        // افتح السلة في تاب جديد
         String originalWindow = basketPage.openBasketInNewTabAndSwitch();
 
+        // اقرأ المنتجات وتحقق من الـ subtotal
         List<String> basketProducts = basketPage.readBasketItemsAndValidateSubtotal();
 
-        basketPage.closeBasketTabAndReturn(originalWindow);
-
+        // قارن القوائم الثلاثة (فلتر / Added / Basket)
         basketPage.compareThreeLists(
                 listingResult.getEligibleProducts(),
                 listingResult.getAddedToCartProducts(),
                 basketProducts
         );
+
+        // من السلة → Proceed to checkout → صفحة العنوان
+        P6_AddressPage addressPage = basketPage.proceedToCheckout();
+
+
+        String fullName = getJsonValue("AddressData", "AddressData.FullName");
+        String phone    = getJsonValue("AddressData", "AddressData.Phone");
+        String street   = getJsonValue("AddressData", "AddressData.Street");
+        String building = getJsonValue("AddressData", "AddressData.Building");
+        String city     = getJsonValue("AddressData", "AddressData.City");
+        String landmark = getJsonValue("AddressData", "AddressData.Landmark");
+
+        // إضافة العنوان الجديد واستخدامه كعنوان افتراضي → ينتقل لصفحة الدفع
+        P7_PaymentPage paymentPage = addressPage.addNewAddress(
+                fullName,
+                phone,
+                street,
+                building,
+                city,
+                landmark,
+                true,   // isHome
+                true    // setAsDefault
+        );
+
+        // تأكيد أننا على صفحة الدفع
+        paymentPage.verifyOnPaymentPage();
+
+        // رجّع للويندو الأصلي (اختياري)
+        basketPage.closeBasketTabAndReturn(originalWindow);
     }
 }

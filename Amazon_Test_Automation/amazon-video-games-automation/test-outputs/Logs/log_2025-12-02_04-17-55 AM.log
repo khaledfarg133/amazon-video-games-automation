@@ -1,0 +1,7 @@
+[INFO] - [02-12-2025 04:17:55] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [02-12-2025 04:18:01] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[ERROR] - [02-12-2025 04:18:02] [main] [AutomationFramework.Utilities.DataUtils] - No results for path: $['Phone']
+[ERROR] - [02-12-2025 04:18:02] [main] [AutomationFramework.Utilities.DataUtils] - No results for path: $['Password']
+[INFO] - [02-12-2025 04:18:03] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [02-12-2025 04:18:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 04:18:04] [main] [AutomationFramework.Utilities.Utility] - Data entered:    in the field:  By.cssSelector: #ap_email_login

@@ -25,6 +25,8 @@ public class P5_BasketPage {
     // Basket locators
     // =========================
 
+    // locator لزر Proceed to checkout
+    private final By proceedToCheckoutButton = By.name("proceedToRetailCheckout");
     // Active cart items (cards with name + price + quantity)
     private final By activeItemsLocator = By.xpath(
             "//div[@id='sc-active-cart']" +
@@ -525,5 +527,11 @@ public class P5_BasketPage {
         }
 
         System.out.println("==============================================================\n");
+    }
+
+    @Step("Click Proceed to checkout from basket and go to Address page")
+    public P6_AddressPage proceedToCheckout() {
+        clickElement(driver, proceedToCheckoutButton);
+        return new P6_AddressPage(driver);
     }
 }
