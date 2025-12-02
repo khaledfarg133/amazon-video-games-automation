@@ -1,0 +1,7 @@
+[INFO] - [02-12-2025 01:26:25] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - Running Allure command: C:\Users\Dell\.m2\repository\allure\allure-2.35.1\bin\allure.bat generate test-outputs/allure-result -o test-outputs/reports --clean --single-file
+[INFO] - [02-12-2025 01:26:29] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - Allure Report Generated Successfully on WINDOWS
+[INFO] - [02-12-2025 01:26:29] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - Running Allure command: C:\Users\Dell\.m2\repository\allure\allure-2.35.1\bin\allure.bat generate test-outputs/allure-result -o test-outputs/full-report --clean
+[INFO] - [02-12-2025 01:26:34] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - Full Allure Report Generated Successfully on WINDOWS
+[INFO] - [02-12-2025 01:26:34] [Thread-0] [AutomationFramework.Utilities.FilesUtils] - Target File Path: "C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\test-outputs/reports\index.html", file was renamed to "AllureReport2025-12-02_01-26-34.html".
+[INFO] - [02-12-2025 01:26:34] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - OpenAllureReportAfterExecution = 
+[INFO] - [02-12-2025 01:26:34] [Thread-0] [AutomationFramework.Utilities.AllureUtils] - Auto open Allure is disabled. Skipping openAllureReport.

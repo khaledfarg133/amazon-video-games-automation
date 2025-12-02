@@ -1,0 +1,6 @@
+[INFO] - [28-11-2025 11:06:26] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:06:28] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:06:30] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:06:30] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:06:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [28-11-2025 11:06:31] [main] [AutomationFramework.Utilities.Utility] - Data entered:  01158228860  in the field:  By.cssSelector: #ap_email_login

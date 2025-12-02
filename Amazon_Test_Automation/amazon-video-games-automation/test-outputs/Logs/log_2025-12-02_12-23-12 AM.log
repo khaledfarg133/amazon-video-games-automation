@@ -1,0 +1,26 @@
+[INFO] - [02-12-2025 00:23:12] [main] [AutomationFramework.listeners.TestNGListeners] - Test Execution started
+[INFO] - [02-12-2025 00:23:12] [main] [AutomationFramework.listeners.TestNGListeners] - Directories created
+[INFO] - [02-12-2025 00:23:12] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading Properties File Data
+[INFO] - [02-12-2025 00:23:12] [main] [AutomationFramework.listeners.TestNGListeners] - Properties loaded
+[INFO] - [02-12-2025 00:23:12] [main] [AutomationFramework.Utilities.AllureUtils] - Initializing Allure Reporting Environment...
+[INFO] - [02-12-2025 00:23:14] [main] [AutomationFramework.Utilities.AllureUtils] - Resolved URL: https://github.com/allure-framework/allure2/releases/tag/2.35.1
+[INFO] - [02-12-2025 00:23:14] [main] [AutomationFramework.Utilities.AllureUtils] - Allure Version: 2.35.1
+[INFO] - [02-12-2025 00:23:14] [main] [AutomationFramework.Utilities.AllureUtils] - Allure binaries already exist.
+[INFO] - [02-12-2025 00:23:14] [main] [AutomationFramework.listeners.TestNGListeners] - Allure environment set
+[INFO] - [02-12-2025 00:23:15] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [02-12-2025 00:23:15] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUpClass passed
+[INFO] - [02-12-2025 00:23:17] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [02-12-2025 00:23:17] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUp passed
+[INFO] - [02-12-2025 00:23:17] [main] [AutomationFramework.listeners.TestNGListeners] - Test Case userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket started
+[INFO] - [02-12-2025 00:23:19] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [02-12-2025 00:23:20] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 00:23:20] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 00:23:21] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .a-button-text.a-declarative
+[INFO] - [02-12-2025 00:23:21] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //span[normalize-space()='+20']
+[INFO] - [02-12-2025 00:23:21] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [02-12-2025 00:23:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 00:23:23] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 00:23:23] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [02-12-2025 00:23:40] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='hm-icon nav-sprite'])[1]
+[INFO] - [02-12-2025 00:24:05] [main] [AutomationFramework.Utilities.AllureUtils] - Screenshot attached to Allure report: test-outputs\screenshots\failed-userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket-2025-12-02_12-24-05.png
+[INFO] - [02-12-2025 00:24:05] [main] [AutomationFramework.Utilities.ScreenshotUtils] - Screenshot captured successfully.

@@ -1,0 +1,17 @@
+[INFO] - [29-11-2025 00:22:42] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 00:22:44] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 00:22:47] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 00:22:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 00:22:48] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 00:22:48] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 00:22:51] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 00:22:51] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 00:22:51] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 00:23:07] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 00:23:10] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 00:23:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[INFO] - [29-11-2025 00:23:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 00:23:13] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 00:23:16] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[13]
+[INFO] - [29-11-2025 00:23:19] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #a-autoid-0-announce
+[INFO] - [29-11-2025 00:23:19] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #s-result-sort-select_2

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","45356","userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket","Default Suite","2025-12-01","passed","2025-12-01","TestCase.TC1_VideoGamesPriceFilterAndBasketValidation","Dashboard-master","TestCase.TC1_VideoGamesPriceFilterAndBasketValidation","userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket"
+"","284483","success","Default Suite","2025-12-01","passed","2025-12-01","TestCase.TC1_SatisfactionSurveys","Dashboard-master","TestCase.TC1_SatisfactionSurveys","success"

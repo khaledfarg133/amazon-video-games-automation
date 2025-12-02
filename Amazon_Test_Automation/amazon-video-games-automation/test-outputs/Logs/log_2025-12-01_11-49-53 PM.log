@@ -1,0 +1,35 @@
+[INFO] - [01-12-2025 23:49:53] [main] [AutomationFramework.listeners.TestNGListeners] - Test Execution started
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.Utilities.FilesUtils] - Directory created: test-outputs/screenshots/
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.Utilities.FilesUtils] - Directory created: test-outputs/recordings/
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.Utilities.FilesUtils] - Directory created: test-outputs/reports
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.listeners.TestNGListeners] - Directories created
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading Properties File Data
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.listeners.TestNGListeners] - Properties loaded
+[INFO] - [01-12-2025 23:49:54] [main] [AutomationFramework.Utilities.AllureUtils] - Initializing Allure Reporting Environment...
+[INFO] - [01-12-2025 23:49:55] [main] [AutomationFramework.Utilities.AllureUtils] - Resolved URL: https://github.com/allure-framework/allure2/releases/tag/2.35.1
+[INFO] - [01-12-2025 23:49:55] [main] [AutomationFramework.Utilities.AllureUtils] - Allure Version: 2.35.1
+[ERROR] - [01-12-2025 23:49:56] [main] [AutomationFramework.Utilities.AllureUtils] - Failed to download Allure ZIP from: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.35.1/allure-commandline-2.35.1.zip - src\main\resources\allure\allure-2.35.1.zip (The system cannot find the path specified)
+[ERROR] - [01-12-2025 23:49:56] [main] [AutomationFramework.Utilities.AllureUtils] - Failed to extract Allure binaries: src\main\resources\allure\allure-2.35.1.zip (The system cannot find the path specified)
+[INFO] - [01-12-2025 23:49:56] [main] [AutomationFramework.Utilities.AllureUtils] - Allure binaries downloaded and extracted.
+[INFO] - [01-12-2025 23:49:56] [main] [AutomationFramework.listeners.TestNGListeners] - Allure environment set
+[INFO] - [01-12-2025 23:49:56] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [01-12-2025 23:49:56] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUpClass passed
+[INFO] - [01-12-2025 23:49:59] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [01-12-2025 23:49:59] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUp passed
+[INFO] - [01-12-2025 23:49:59] [main] [AutomationFramework.listeners.TestNGListeners] - Test Case userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket started
+[INFO] - [01-12-2025 23:50:03] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [01-12-2025 23:50:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [01-12-2025 23:50:04] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [01-12-2025 23:50:05] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .a-button-text.a-declarative
+[WARN] - [01-12-2025 23:50:06] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: //span[normalize-space()='+20']
+[INFO] - [01-12-2025 23:50:06] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [01-12-2025 23:50:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [01-12-2025 23:50:08] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [01-12-2025 23:50:08] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [01-12-2025 23:50:36] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='hm-icon nav-sprite'])[1]
+[INFO] - [01-12-2025 23:50:43] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [01-12-2025 23:50:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[INFO] - [01-12-2025 23:50:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [01-12-2025 23:50:46] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [01-12-2025 23:51:16] [main] [AutomationFramework.Utilities.AllureUtils] - Screenshot attached to Allure report: test-outputs\screenshots\failed-userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket-2025-12-01_11-51-16.png
+[INFO] - [01-12-2025 23:51:16] [main] [AutomationFramework.Utilities.ScreenshotUtils] - Screenshot captured successfully.

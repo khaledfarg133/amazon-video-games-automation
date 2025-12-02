@@ -1,0 +1,15 @@
+[INFO] - [29-11-2025 18:57:57] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 18:58:00] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 18:58:02] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 18:58:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 18:58:04] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 18:58:04] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 18:58:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 18:58:06] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 18:58:06] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 18:58:22] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 18:58:23] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 18:58:24] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[WARN] - [29-11-2025 18:58:25] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 18:58:41] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 18:58:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='Apply the filter New to narrow results'] span[class='a-size-base a-color-base']

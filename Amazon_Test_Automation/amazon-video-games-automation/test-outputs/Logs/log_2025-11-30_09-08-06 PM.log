@@ -1,0 +1,6 @@
+[INFO] - [30-11-2025 21:08:06] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [30-11-2025 21:08:08] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[ERROR] - [30-11-2025 21:08:09] [main] [AutomationFramework.Utilities.DataUtils] - com.google.gson.stream.MalformedJsonException: Expected name at line 14 column 2 path $.NumberOfPage_DoYouWantToTest
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+[ERROR] - [30-11-2025 21:08:09] [main] [AutomationFramework.Utilities.DataUtils] - com.google.gson.stream.MalformedJsonException: Expected name at line 14 column 2 path $.NumberOfPage_DoYouWantToTest
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json

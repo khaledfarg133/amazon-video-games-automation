@@ -1,0 +1,7 @@
+[INFO] - [01-12-2025 22:30:18] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [01-12-2025 22:30:21] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[ERROR] - [01-12-2025 22:30:21] [main] [AutomationFramework.Utilities.DataUtils] - src\test\resources\test-data\LoginData.json (The system cannot find the file specified)
+[ERROR] - [01-12-2025 22:30:21] [main] [AutomationFramework.Utilities.DataUtils] - src\test\resources\test-data\LoginData.json (The system cannot find the file specified)
+[INFO] - [01-12-2025 22:30:22] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [01-12-2025 22:30:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [01-12-2025 22:30:23] [main] [AutomationFramework.Utilities.Utility] - Data entered:    in the field:  By.cssSelector: #ap_email_login

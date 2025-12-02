@@ -1,0 +1,10 @@
+[INFO] - [29-11-2025 17:05:51] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 17:05:54] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 17:05:58] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 17:05:59] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 17:05:59] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 17:06:00] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 17:06:01] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 17:06:01] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 17:06:01] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 17:06:18] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite

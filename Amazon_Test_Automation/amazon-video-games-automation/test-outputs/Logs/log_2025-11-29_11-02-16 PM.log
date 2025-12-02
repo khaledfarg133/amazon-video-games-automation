@@ -1,0 +1,14 @@
+[INFO] - [29-11-2025 23:02:16] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 23:02:18] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 23:02:20] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 23:02:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 23:02:21] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 23:02:21] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 23:02:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 23:02:25] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 23:02:25] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 23:02:40] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='hm-icon nav-sprite'])[1]
+[INFO] - [29-11-2025 23:02:49] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 23:02:50] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[INFO] - [29-11-2025 23:02:50] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 23:02:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]

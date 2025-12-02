@@ -1,0 +1,122 @@
+[INFO] - [29-11-2025 11:03:45] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 11:03:47] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 11:03:49] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 11:03:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 11:03:50] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 11:03:51] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 11:03:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 11:03:52] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 11:03:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 11:04:09] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 11:04:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 11:04:12] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[WARN] - [29-11-2025 11:04:13] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 11:04:15] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 11:04:18] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[13]
+[INFO] - [29-11-2025 11:04:20] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #a-autoid-0-announce
+[INFO] - [29-11-2025 11:04:20] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #s-result-sort-select_2
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  10x Battery Cover Case for Xbox 360 Wireless Controller,Replacement Battery Pack Shell Compatible with Xbox 360 - Black
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[1]  Text:  800
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Black Battery Cover Shell Case Repalcement Compatible with Xbox 360 Wireless Controller (10 Pack)
+[INFO] - [29-11-2025 11:04:21] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[2]  Text:  800
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  HQMaster 10 Pack Black Battery Cover Shell Case for Xbox 360 Wireless Controller
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[3]  Text:  800
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[8]  Text:  Carrying Case for PS5 with Grip Cover, Case Travel Bag for Playstation 5 Disc/Digital Edition Console, Protective Storage Shoulder Bag for PS5 Accessories Controllers/Stand/Game Cards/HDMI -Blue
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[4]  Text:  650
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[9]  Text:  Carrying Case for PS5 with Grip Cover, Case Travel Bag for Playstation 5 Disc/Digital Edition Console, Protective Storage Shoulder Bag for PS5 Accessories Controllers/Stand/Game Cards/HDMI -White
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[5]  Text:  605
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[10]  Text:  Marvelights PlayStation 5 Case Bag Lightweight Travel Storage Protector Shoulder Console Handbag for PlayStation 5 Pro/Xbox One X
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 11:04:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[6]  Text:  605
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[11]  Text:  Carrying Case for PS5, Travel Case for PS5 Console Disc/Digital Edition, Case Travel Bag for PS5 Console, Controllers, Game Cards, HDMI and Accessories Bag Travel Carry Case -New Upgrade
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[7]  Text:  605
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[12]  Text:  PlayStation 5 Video Game Bag
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[8]  Text:  600
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[13]  Text:  Silicone Case Cover for Sony Playstation 5 PS5 DualSense Controller. (4PC-Camouflage2)
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[9]  Text:  599
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[14]  Text:  GUSTAVE® Waterproof Storage Bag for Sony PS5 Console and Game Controller, Carrying Shoulder Bag with Strap, Travel Bag for for Sony PlayStation 5/PS5 Console Disc, Controllers, Game Cards, Black, A
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[10]  Text:  588
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[15]  Text:  G-STORY Console Carrying Storage Bag for Playstation 5 and Digital Edition with Silicone Cover
+[INFO] - [29-11-2025 11:04:23] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[11]  Text:  580
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[16]  Text:  Energy Case® Waterproof Storage Travel Carrying Case Protective for PS5PS4XBOX Console Game Controller Charger Dock Charging Cable Cards, Headset Supports all versions Playstation
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[12]  Text:  580
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[17]  Text:  Skade Travel Storage Shoulder Bag/Carrying Case for PS5 Console Disc/Digital Edition and Controllers, Game Cards, HDMI and Accessories (Blue)
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[13]  Text:  570
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[18]  Text:  Frusde Carrying Case for PS5 Console Disc/Digital Edition, Travel Bag Storage for Controllers, Game Cards, HDMI and Accessories - Protective Shoulder Bag
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[14]  Text:  560
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[19]  Text:  PS5 Carrying Case, PS5 Travel Bag Storage for PS5 Console Disc/Digital Edition and Controllers, Protective PS5 Shoulder Bag for Playstation TRK (Black+White)
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[15]  Text:  560
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[20]  Text:  MAYCREATE® Waterproof Travel Storage Bag with Strap for Sony Playstation 5/PS5 Console Disc, Controllers, Game Cards, Black, One size
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[16]  Text:  560
+[INFO] - [29-11-2025 11:04:24] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 11:04:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 11:04:25] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[21]  Text:  Next Level Racing Flight Simulator Cockpit: Boeing Commercial Edition (NLR-S027)
+[INFO] - [29-11-2025 11:04:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 11:04:55] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 11:04:55] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[22]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 11:04:55] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 11:05:30] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 11:05:30] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[24]  Text:  Your Browsing History
+[INFO] - [29-11-2025 11:05:30] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]

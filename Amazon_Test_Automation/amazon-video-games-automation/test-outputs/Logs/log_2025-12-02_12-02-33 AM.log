@@ -1,0 +1,27 @@
+[INFO] - [02-12-2025 00:02:33] [main] [AutomationFramework.listeners.TestNGListeners] - Test Execution started
+[INFO] - [02-12-2025 00:02:33] [main] [AutomationFramework.listeners.TestNGListeners] - Directories created
+[INFO] - [02-12-2025 00:02:34] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading Properties File Data
+[INFO] - [02-12-2025 00:02:34] [main] [AutomationFramework.listeners.TestNGListeners] - Properties loaded
+[INFO] - [02-12-2025 00:02:34] [main] [AutomationFramework.Utilities.AllureUtils] - Initializing Allure Reporting Environment...
+[INFO] - [02-12-2025 00:02:36] [main] [AutomationFramework.Utilities.AllureUtils] - Resolved URL: https://github.com/allure-framework/allure2/releases/tag/2.35.1
+[INFO] - [02-12-2025 00:02:36] [main] [AutomationFramework.Utilities.AllureUtils] - Allure Version: 2.35.1
+[ERROR] - [02-12-2025 00:02:36] [main] [AutomationFramework.Utilities.AllureUtils] - Failed to download Allure ZIP from: https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.35.1/allure-commandline-2.35.1.zip - src\main\resources\allure\allure-2.35.1.zip (The system cannot find the path specified)
+[ERROR] - [02-12-2025 00:02:36] [main] [AutomationFramework.Utilities.AllureUtils] - Failed to extract Allure binaries: src\main\resources\allure\allure-2.35.1.zip (The system cannot find the path specified)
+[INFO] - [02-12-2025 00:02:36] [main] [AutomationFramework.Utilities.AllureUtils] - Allure binaries downloaded and extracted.
+[INFO] - [02-12-2025 00:02:36] [main] [AutomationFramework.listeners.TestNGListeners] - Allure environment set
+[INFO] - [02-12-2025 00:02:36] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [02-12-2025 00:02:36] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUpClass passed
+[INFO] - [02-12-2025 00:02:40] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [02-12-2025 00:02:40] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUp passed
+[INFO] - [02-12-2025 00:02:40] [main] [AutomationFramework.listeners.TestNGListeners] - Test Case userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket started
+[INFO] - [02-12-2025 00:02:41] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [02-12-2025 00:02:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 00:02:42] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 00:02:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .a-button-text.a-declarative
+[INFO] - [02-12-2025 00:02:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //span[normalize-space()='+20']
+[INFO] - [02-12-2025 00:02:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [02-12-2025 00:02:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 00:02:46] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 00:02:46] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [02-12-2025 00:03:16] [main] [AutomationFramework.Utilities.AllureUtils] - Screenshot attached to Allure report: test-outputs\screenshots\failed-userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket-2025-12-02_12-03-16.png
+[INFO] - [02-12-2025 00:03:16] [main] [AutomationFramework.Utilities.ScreenshotUtils] - Screenshot captured successfully.

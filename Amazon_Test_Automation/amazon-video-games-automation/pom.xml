@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- تعريف ملف POM كملف XML -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- تحديد إصدار نموذج POM -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- تعريف معرف المجموعة (Group ID) للمشروع -->
+    <groupId>org.example</groupId>
+    <!-- تعريف اسم المشروع (Artifact ID) -->
+    <artifactId>Dashboard</artifactId>
+    <!-- تحديد إصدار المشروع -->
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <!-- تحديد إصدار Java Compiler المستخدم -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <!-- تعيين ترميز المصدر (UTF-8) لضمان دعم جميع اللغات -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- تعريف إصدارات المكتبات المستخدمة في المشروع -->
+        <seleniumVersion>4.29.0</seleniumVersion> <!-- تعريف إصدار Selenium المستخدم -->
+        <testNGVersion>7.10.2</testNGVersion> <!-- تعريف إصدار TestNG المستخدم -->
+        <slf4jVersion>2.0.12</slf4jVersion> <!-- تعريف إصدار SLF4J المستخدم -->
+        <logbackVersion>1.2.7</logbackVersion> <!-- إصدار Logback (لتسجيل الأخطاء) -->
+        <gsonVersion>2.12.1</gsonVersion> <!-- إصدار Gson لتحليل JSON -->
+        <commonIO>2.15.0</commonIO> <!-- إصدار Apache Commons IO للتعامل مع ملفات الإدخال/الإخراج -->
+        <apachePoi>5.3.0</apachePoi> <!-- إصدار Apache POI لمعالجة ملفات Excel -->
+        <monteScreenRecorder>0.7.7.0</monteScreenRecorder> <!-- إصدار Monte Screen Recorder لتسجيل الشاشة -->
+        <json.path.version>2.9.0</json.path.version> <!-- إصدار JSON Path للتعامل مع البيانات بصيغة JSON -->
+        <shutter.bug.version>1.6</shutter.bug.version> <!-- إصدار Shutterbug لالتقاط لقطات شاشة أثناء الاختبارات -->
+        <allure.version>2.24.0</allure.version> <!-- إصدار Allure لتحسين تقارير الاختبارات -->
+        <aspectj.version>1.9.20.1</aspectj.version> <!-- إصدار AspectJ لتحسين اختبارات البرمجيات -->
+    </properties>
+
+    <build>
+        <directory>test-outputs/target</directory> <!-- تحديد المسار لحفظ نتائج البناء -->
+        <plugins>
+            <!-- إضافة Sonar Maven Plugin لتحليل جودة الكود البرمجي -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>
+
+            <!-- إعدادات المكون maven-surefire-plugin لدمج AspectJ -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- إدارة التبعيات (dependencies) لضمان استخدام الإصدارات الصحيحة -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- تعريف Allure BOM (Bill of Materials) لضمان الإصدارات الصحيحة لجميع تبعيات Allure -->
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-bom</artifactId>
+                <version>2.24.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- إضافة تبعية Allure TestNG لاستخدامه في اختبارات TestNG -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-all-deps</artifactId>
+            <version>3.5.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.automatedowl</groupId>
+            <artifactId>allure-environment-writer</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.automatedowl</groupId>
+            <artifactId>allure-environment-writer</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- إضافة AspectJ Weaver لتدعيم التوجيه (Aspect-Oriented Programming) -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.20.1</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.automation-remarks</groupId>
+            <artifactId>video-recorder-testng</artifactId>
+            <version>2.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.testng</groupId>
+                    <artifactId>testng</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- إضافة مكتبات Log4j لتسجيل السجلات (logging) -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.24.3</version>
+            <scope>test</scope> <!-- هذه المكتبة تُستخدم فقط أثناء الاختبارات -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.24.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.24.3</version>
+        </dependency>
+
+        <!-- إضافة مكتبة SLF4J لتوحيد أسلوب التسجيل بين المكتبات -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.12</version>
+        </dependency>
+
+        <!-- إضافة Apache POI للعمل مع ملفات Excel -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <!-- إضافة Selenium WebDriver لاختبار تطبيقات الويب تلقائيًا -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.29.0</version>
+        </dependency>
+
+        <!-- إضافة مكتبة Jackson Core لتحليل بيانات JSON -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.18.2</version>
+        </dependency>
+
+        <!-- إضافة مكتبة JSON للتعامل مع البيانات بصيغة JSON -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version>
+        </dependency>
+
+        <!-- إضافة مكتبة Gson لتحويل البيانات بين JSON وكائنات Java -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gsonVersion}</version>
+        </dependency>
+
+        <!-- إضافة مكتبة JSON Path للعمل مع البيانات JSON بشكل مرن -->
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>${json.path.version}</version>
+        </dependency>
+
+        <!-- إضافة مكتبة Shutterbug لالتقاط لقطات شاشة أثناء الاختبارات -->
+        <dependency>
+            <groupId>com.assertthat</groupId>
+            <artifactId>selenium-shutterbug</artifactId>
+            <version>1.6</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>selenium-java</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- إضافة مكتبة Monte Screen Recorder لتسجيل الشاشة أثناء الاختبارات -->
+        <dependency>
+            <groupId>com.github.stephenc.monte</groupId>
+            <artifactId>monte-screen-recorder</artifactId>
+            <version>${monteScreenRecorder}</version>
+        </dependency>
+
+        <!-- إضافة TestNG لاختبار البرمجيات باستخدام إطار TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- إضافة Java Faker لتوليد بيانات عشوائية للاختبارات -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <repositories>
+        <!-- تعريف مستودع JitPack لتحميل مكتبات خارجية -->
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+</project>

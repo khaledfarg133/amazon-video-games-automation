@@ -1,0 +1,41 @@
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.listeners.TestNGListeners] - Test Execution started
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.listeners.TestNGListeners] - Directories created
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\allure.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\environment.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\log4j2.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\video.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\waits.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading properties from: C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\src\main\resources\webApp.properties
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - Loading Properties File Data. Total keys = 93
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.PropertiesUtils] - DEBUG -> OpenAllureReportAfterExecution from properties = 'null'
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.listeners.TestNGListeners] - Properties loaded
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.listeners.TestNGListeners] - allure.results.directory = C:\Users\Dell\OneDrive\Desktop\Task\Dashboard-master\test-outputs/allure-result
+[INFO] - [02-12-2025 01:57:01] [main] [AutomationFramework.Utilities.AllureUtils] - Initializing Allure Reporting Environment...
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.Utilities.AllureUtils] - Resolved URL: https://github.com/allure-framework/allure2/releases/tag/2.35.1
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.Utilities.AllureUtils] - Allure Version: 2.35.1
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.Utilities.AllureUtils] - Allure ZIP already exists at: src/main/resources/allure/allure-2.35.1.zip
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.Utilities.AllureUtils] - Allure binaries already exist.
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.listeners.TestNGListeners] - Allure environment set
+[INFO] - [02-12-2025 01:57:03] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [02-12-2025 01:57:03] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUpClass passed
+[INFO] - [02-12-2025 01:57:06] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [02-12-2025 01:57:06] [main] [AutomationFramework.listeners.TestNGListeners] - Configuration Method  setUp passed
+[INFO] - [02-12-2025 01:57:06] [main] [AutomationFramework.listeners.TestNGListeners] - Test Case userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket started
+[INFO] - [02-12-2025 01:57:07] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [02-12-2025 01:57:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 01:57:08] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [02-12-2025 01:57:09] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .a-button-text.a-declarative
+[INFO] - [02-12-2025 01:57:10] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //span[normalize-space()='+20']
+[INFO] - [02-12-2025 01:57:10] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [02-12-2025 01:57:11] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 01:57:11] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [02-12-2025 01:57:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[ERROR] - [02-12-2025 01:57:15] [main] [AutomationFramework.Utilities.ScreenshotUtils] - Failed to capture screenshot target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e69e4c898f3638f37b0d398ac8ba1410, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59433}, goog:processID: 24432, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59433/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e69e4c898f3638f37b0d398ac8ba1410

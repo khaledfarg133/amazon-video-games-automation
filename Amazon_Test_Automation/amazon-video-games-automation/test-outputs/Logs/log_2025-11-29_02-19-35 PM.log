@@ -1,0 +1,131 @@
+[INFO] - [29-11-2025 14:19:35] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 14:19:38] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 14:19:40] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 14:19:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 14:19:42] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 14:19:42] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 14:19:43] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 14:19:43] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 14:19:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 14:20:10] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 14:20:11] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 14:20:12] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[WARN] - [29-11-2025 14:20:13] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 14:20:15] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 14:20:17] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='Apply the filter New to narrow results'] span[class='a-size-base a-color-base']
+[INFO] - [29-11-2025 14:20:19] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #a-autoid-0-announce
+[INFO] - [29-11-2025 14:20:19] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #s-result-sort-select_2
+[INFO] - [29-11-2025 14:20:20] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 14:20:20] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 14:20:20] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 14:20:26] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 14:20:26] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Dardoo Adjustable Steering Wheel Stand with Seat Frame Compatible with Logitech G25 G27 G29 G920 G923 Fanatec Thrustmaster T150 T300RS T500R Racing Gaming Simulator Cockpit for PS4 Xbox PC
+[INFO] - [29-11-2025 14:20:26] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 14:20:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 14:20:31] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  Valve Steam Deck OLED 1TB Handheld Gaming Console
+[INFO] - [29-11-2025 14:20:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 14:20:36] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 14:20:37] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[8]  Text:  Lenovo Legion Go S - 2025 - Mobile Gaming Console - AMD Radeon graphics - 8" PureSight IPS Display - 120Hz - AMD Ryzen™ Z2 Go - 16GB Memory - 512GB Storage - Glacier White - Free PC Game Pass
+[INFO] - [29-11-2025 14:20:37] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 14:20:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 14:20:42] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[9]  Text:  ASUS ROG Xbox Ally RC73YA, Gaming Console, 7" Glossy Touchscreen Display, 120Hz, AMD Ryzen Z2, RAM 16GB, 512GB SSD PCIE, Windows 11 Home, White
+[INFO] - [29-11-2025 14:20:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 14:20:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 14:20:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[10]  Text:  Sony PlayStation 5 Slim Standard Edition — 1TB Console | LittleBigPlanet 3 PS4 Game | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 14:20:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 14:20:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 14:20:53] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[11]  Text:  Sony PlaysStation 5 Slim Console Disk, 1 TB Storage Capacity, White
+[INFO] - [29-11-2025 14:20:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 14:20:58] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 14:20:58] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[12]  Text:  Console Sony PlayStation 5 Édition Standard Blanche
+[INFO] - [29-11-2025 14:20:58] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 14:21:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 14:21:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[13]  Text:  Sony PlayStation 5 Slim Digital Edition — 1TB Console | EA SPORTS FIFA 24 (Digital Voucher) | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 14:21:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 14:21:09] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 14:21:09] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[14]  Text:  Meta Ray-Ban | Wayfarer Smart Glasses - MATT BLACK, PASSORS GRAPHITE GREEN
+[INFO] - [29-11-2025 14:21:09] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 14:21:14] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 14:21:14] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[15]  Text:  Meta Quest 3S 256GB Virtual Reality Glasses White
+[INFO] - [29-11-2025 14:21:14] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 14:21:20] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 14:21:20] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[16]  Text:  Razer Kraken V4 Pro Wireless Gaming Headset with Sensa HD Haptics Control Hub (OLED Control Hub, 40mm TriForce Driver, HyperSpeed and Bluetooth, THX Spatial Audio) Black
+[INFO] - [29-11-2025 14:21:20] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 14:21:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 14:21:25] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[17]  Text:  Wooting 80HE Linear 60 v2 English Sequence, US-ANSI Rapid Trigger, Gaming Keyboard, Wooting60HE + ARM ANSI-US PBT Lekker US Layout, Worting Keyboard, Actuation Point, Wired, 80% Size Keyboard,
+[INFO] - [29-11-2025 14:21:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 14:21:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 14:21:31] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[18]  Text:  Microsoft Xbox Series S Console
+[INFO] - [29-11-2025 14:21:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 14:21:36] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 14:21:36] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[19]  Text:  PS4 PlayStation 4 slim 1tb with controller
+[INFO] - [29-11-2025 14:21:36] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 14:21:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 14:21:42] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[20]  Text:  PXN V10 Force Feedback Racing Wheel 270°/900° Rotation with Pedal and Gear Lever for PC, Xbox One, Series X/S, PS4
+[INFO] - [29-11-2025 14:21:42] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 14:21:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 14:21:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[21]  Text:  Next Level Racing Flight Simulator Cockpit: Boeing Commercial Edition (NLR-S027)
+[INFO] - [29-11-2025 14:21:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 14:21:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 14:21:52] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[22]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 14:21:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 14:22:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 14:22:03] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[24]  Text:  Your Browsing History
+[INFO] - [29-11-2025 14:22:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 14:22:33] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 14:22:33] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 14:22:33] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 14:22:39] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 14:22:39] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Dardoo Adjustable Steering Wheel Stand with Seat Frame Compatible with Logitech G25 G27 G29 G920 G923 Fanatec Thrustmaster T150 T300RS T500R Racing Gaming Simulator Cockpit for PS4 Xbox PC
+[INFO] - [29-11-2025 14:22:39] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 14:22:44] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 14:22:44] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  Valve Steam Deck OLED 1TB Handheld Gaming Console
+[INFO] - [29-11-2025 14:22:44] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 14:22:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 14:22:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[8]  Text:  Lenovo Legion Go S - 2025 - Mobile Gaming Console - AMD Radeon graphics - 8" PureSight IPS Display - 120Hz - AMD Ryzen™ Z2 Go - 16GB Memory - 512GB Storage - Glacier White - Free PC Game Pass
+[INFO] - [29-11-2025 14:22:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 14:22:55] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 14:22:55] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[9]  Text:  ASUS ROG Xbox Ally RC73YA, Gaming Console, 7" Glossy Touchscreen Display, 120Hz, AMD Ryzen Z2, RAM 16GB, 512GB SSD PCIE, Windows 11 Home, White
+[INFO] - [29-11-2025 14:22:55] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 14:23:00] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 14:23:00] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[10]  Text:  Sony PlayStation 5 Slim Standard Edition — 1TB Console | LittleBigPlanet 3 PS4 Game | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 14:23:00] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 14:23:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 14:23:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[11]  Text:  Sony PlaysStation 5 Slim Console Disk, 1 TB Storage Capacity, White
+[INFO] - [29-11-2025 14:23:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 14:23:11] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 14:23:11] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[12]  Text:  Console Sony PlayStation 5 Édition Standard Blanche
+[INFO] - [29-11-2025 14:23:11] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 14:23:16] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 14:23:16] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[13]  Text:  Sony PlayStation 5 Slim Digital Edition — 1TB Console | EA SPORTS FIFA 24 (Digital Voucher) | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 14:23:16] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 14:23:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 14:23:22] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[14]  Text:  Meta Ray-Ban | Wayfarer Smart Glasses - MATT BLACK, PASSORS GRAPHITE GREEN
+[INFO] - [29-11-2025 14:23:22] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 14:23:27] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 14:23:27] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[15]  Text:  Meta Quest 3S 256GB Virtual Reality Glasses White
+[INFO] - [29-11-2025 14:23:27] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 14:23:32] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 14:23:33] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[16]  Text:  Razer Kraken V4 Pro Wireless Gaming Headset with Sensa HD Haptics Control Hub (OLED Control Hub, 40mm TriForce Driver, HyperSpeed and Bluetooth, THX Spatial Audio) Black
+[INFO] - [29-11-2025 14:23:33] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 14:23:38] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 14:23:38] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[17]  Text:  Wooting 80HE Linear 60 v2 English Sequence, US-ANSI Rapid Trigger, Gaming Keyboard, Wooting60HE + ARM ANSI-US PBT Lekker US Layout, Worting Keyboard, Actuation Point, Wired, 80% Size Keyboard,
+[INFO] - [29-11-2025 14:23:38] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 14:23:43] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 14:23:43] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[18]  Text:  Microsoft Xbox Series S Console
+[INFO] - [29-11-2025 14:23:43] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 14:23:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 14:23:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[19]  Text:  PS4 PlayStation 4 slim 1tb with controller
+[INFO] - [29-11-2025 14:23:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 14:23:54] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 14:23:54] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[20]  Text:  PXN V10 Force Feedback Racing Wheel 270°/900° Rotation with Pedal and Gear Lever for PC, Xbox One, Series X/S, PS4
+[INFO] - [29-11-2025 14:23:54] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 14:24:00] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 14:24:00] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[21]  Text:  Next Level Racing Flight Simulator Cockpit: Boeing Commercial Edition (NLR-S027)
+[INFO] - [29-11-2025 14:24:00] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 14:24:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 14:24:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[22]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 14:24:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 14:24:16] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 14:24:16] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[24]  Text:  Your Browsing History
+[INFO] - [29-11-2025 14:24:16] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]

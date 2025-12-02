@@ -1,0 +1,19 @@
+[INFO] - [28-11-2025 11:49:27] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:49:30] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:49:31] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:49:31] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:49:32] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [28-11-2025 11:49:32] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [28-11-2025 11:49:33] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: input[type='submit']
+[INFO] - [28-11-2025 11:49:33] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: input[type='submit']
+[INFO] - [28-11-2025 11:49:34] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [28-11-2025 11:49:34] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [28-11-2025 11:49:34] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #signInSubmit
+[INFO] - [28-11-2025 11:49:34] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: #signInSubmit
+[INFO] - [28-11-2025 11:49:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [28-11-2025 11:49:51] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [28-11-2025 11:49:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [28-11-2025 11:49:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [28-11-2025 11:49:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[INFO] - [28-11-2025 11:49:53] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[INFO] - [28-11-2025 11:49:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//a[normalize-space()='All Video Games'])[1]

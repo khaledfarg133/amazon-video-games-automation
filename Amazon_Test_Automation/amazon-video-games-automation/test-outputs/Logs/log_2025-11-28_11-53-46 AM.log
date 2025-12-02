@@ -1,0 +1,14 @@
+[INFO] - [28-11-2025 11:53:46] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:53:49] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [28-11-2025 11:53:51] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:53:51] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [28-11-2025 11:53:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [28-11-2025 11:53:52] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [28-11-2025 11:53:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: input[type='submit']
+[INFO] - [28-11-2025 11:53:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: input[type='submit']
+[INFO] - [28-11-2025 11:53:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [28-11-2025 11:53:54] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [28-11-2025 11:53:54] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #signInSubmit
+[INFO] - [28-11-2025 11:53:54] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: #signInSubmit
+[INFO] - [28-11-2025 11:54:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [28-11-2025 11:54:07] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element:  By.cssSelector: .hm-icon.nav-sprite

@@ -1,0 +1,32 @@
+[INFO] - [29-11-2025 18:39:37] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 18:39:41] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 18:40:12] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 18:40:14] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 18:40:14] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 18:40:14] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 18:40:15] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 18:40:15] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 18:40:16] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 18:40:40] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 18:40:41] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 18:40:41] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[WARN] - [29-11-2025 18:40:43] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 18:40:45] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 18:40:48] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='Apply the filter New to narrow results'] span[class='a-size-base a-color-base']
+[INFO] - [29-11-2025 18:40:50] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #a-autoid-0-announce
+[INFO] - [29-11-2025 18:40:50] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #s-result-sort-select_2
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']  Text:  EGP135,000
+00
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']
+[INFO] - [29-11-2025 18:40:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='Next'])[1]
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2  Text:  Logitech 941-000112 Driving Force G29 Racing Wheel for PS4, PS3 and PC
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='title-recipe']//h2
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']  Text:  EGP19,595
+00
+[INFO] - [29-11-2025 18:40:53] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//div[@data-component-type='s-search-result'])[1]//div[@data-cy='price-recipe']//span[contains(@class,'a-price') and not(contains(@class,'a-text-price'))][1]/span[@aria-hidden='true']

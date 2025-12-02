@@ -1,0 +1,256 @@
+[INFO] - [29-11-2025 01:12:19] [main] [Base.BaseTest] - Base URL loaded: https://www.amazon.eg/
+[INFO] - [29-11-2025 01:12:25] [main] [Base.BaseTest] - Navigated to base URL: https://www.amazon.eg/
+[INFO] - [29-11-2025 01:12:27] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: div[id='nav-link-accountList'] a:nth-child(1)
+[INFO] - [29-11-2025 01:12:28] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 01:12:28] [main] [AutomationFramework.Utilities.Utility] - Data entered:  1158228860  in the field:  By.cssSelector: #ap_email_login
+[INFO] - [29-11-2025 01:12:29] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: input[type='submit']
+[INFO] - [29-11-2025 01:12:30] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 01:12:30] [main] [AutomationFramework.Utilities.Utility] - Data entered:  ahmedfarg1  in the field:  By.cssSelector: #ap_password
+[INFO] - [29-11-2025 01:12:30] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #signInSubmit
+[INFO] - [29-11-2025 01:12:51] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: .hm-icon.nav-sprite
+[INFO] - [29-11-2025 01:12:52] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: a[aria-label='See All Categories'] div
+[INFO] - [29-11-2025 01:12:53] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: //a[@role='button']//div[contains(text(),'Video Games')]
+[WARN] - [29-11-2025 01:12:54] [main] [AutomationFramework.Utilities.Utility] - Normal click failed due to interception, using JavaScript click for: By.xpath: (//a[normalize-space()='All Video Games'])[1]
+[INFO] - [29-11-2025 01:12:57] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[1]
+[INFO] - [29-11-2025 01:12:59] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//i[@class='a-icon a-icon-checkbox'])[13]
+[INFO] - [29-11-2025 01:13:01] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #a-autoid-0-announce
+[INFO] - [29-11-2025 01:13:02] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.cssSelector: #s-result-sort-select_2
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  Next Level Racing NLR-S010 NLR F-GT COCKPIT SIMULATOR
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[1]  Text:  135,000
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Dardoo Adjustable Steering Wheel Stand with Seat Frame Compatible with Logitech G25 G27 G29 G920 G923 Fanatec Thrustmaster T150 T300RS T500R Racing Gaming Simulator Cockpit for PS4 Xbox PC
+[INFO] - [29-11-2025 01:13:03] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[2]  Text:  97,000
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  Valve Steam Deck OLED 1TB Handheld Gaming Console
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[3]  Text:  45,075
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[8]  Text:  Lenovo Legion Go S - 2025 - Mobile Gaming Console - AMD Radeon graphics - 8" PureSight IPS Display - 120Hz - AMD Ryzen™ Z2 Go - 16GB Memory - 512GB Storage - Glacier White - Free PC Game Pass
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[4]  Text:  42,748
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[9]  Text:  ASUS ROG Xbox Ally RC73YA, Gaming Console, 7" Glossy Touchscreen Display, 120Hz, AMD Ryzen Z2, RAM 16GB, 512GB SSD PCIE, Windows 11 Home, White
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[5]  Text:  34,788
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 01:13:04] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[10]  Text:  Sony PlayStation 5 Slim Standard Edition — 1TB Console | LittleBigPlanet 3 PS4 Game | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[6]  Text:  33,999
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[11]  Text:  Sony PlaysStation 5 Slim Console Disk, 1 TB Storage Capacity, White
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[7]  Text:  33,500
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[12]  Text:  Console Sony PlayStation 5 Édition Standard Blanche
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[8]  Text:  32,698
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[13]  Text:  Sony PlayStation 5 Slim Digital Edition — 1TB Console | EA SPORTS FIFA 24 (Digital Voucher) | 1 Year Manufacturer Warranty
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[9]  Text:  29,789
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[14]  Text:  Meta Ray-Ban | Wayfarer Smart Glasses - MATT BLACK, PASSORS GRAPHITE GREEN
+[INFO] - [29-11-2025 01:13:05] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[10]  Text:  25,950
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[15]  Text:  Meta Quest 3S 256GB Virtual Reality Glasses White
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[11]  Text:  24,500
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[16]  Text:  Razer Kraken V4 Pro Wireless Gaming Headset with Sensa HD Haptics Control Hub (OLED Control Hub, 40mm TriForce Driver, HyperSpeed and Bluetooth, THX Spatial Audio) Black
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[12]  Text:  21,999
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[17]  Text:  Wooting 80HE Linear 60 v2 English Sequence, US-ANSI Rapid Trigger, Gaming Keyboard, Wooting60HE + ARM ANSI-US PBT Lekker US Layout, Worting Keyboard, Actuation Point, Wired, 80% Size Keyboard,
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[13]  Text:  21,617
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[18]  Text:  Microsoft Xbox Series S Console
+[INFO] - [29-11-2025 01:13:06] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[14]  Text:  21,399
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[19]  Text:  PS4 PlayStation 4 slim 1tb with controller
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[15]  Text:  20,600
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[20]  Text:  PXN V10 Force Feedback Racing Wheel 270°/900° Rotation with Pedal and Gear Lever for PC, Xbox One, Series X/S, PS4
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[16]  Text:  19,790
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[21]  Text:  Next Level Racing Flight Simulator Cockpit: Boeing Commercial Edition (NLR-S027)
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[17]
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[17]  Text:  165,000
+[INFO] - [29-11-2025 01:13:07] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[17]
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[22]  Text:  Video Game Console with 453 Built-in Games, 8-Bit System, White, Includes 2 Controllers and AV Cable
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[18]
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[18]  Text:  565
+[INFO] - [29-11-2025 01:13:08] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[18]
+[INFO] - [29-11-2025 01:13:13] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 01:13:13] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[24]  Text:  Your Browsing History
+[INFO] - [29-11-2025 01:13:13] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 01:14:44] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='Next'])[1]
+[INFO] - [29-11-2025 01:14:44] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:14:44] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  Logitech 941-000112 Driving Force G29 Racing Wheel for PS4, PS3 and PC
+[INFO] - [29-11-2025 01:14:44] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[1]  Text:  19,595
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Meta Quest 3S 128GB Virtual Reality Glasses White
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[2]  Text:  19,222
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  Sony Ps4 500Gb Standalone Jet Black With One Dual Shock Controller (Ps4)
+[INFO] - [29-11-2025 01:14:45] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[3]  Text:  19,100
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[8]  Text:  Hori Customizable Competition Arcade Fighting Stick Alpha for Playstation 5 - PS5, PS4, PC - TEKKEN 8 Edition - Officially Licensed Sony
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[8]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[4]  Text:  18,900
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[4]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[9]  Text:  Meta Quest 3S 128GB - With Batman: Arkham Shadow and 3-Month Meta Quest+ Trial - All-in-One Headset
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[9]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[5]  Text:  17,988
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[5]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[10]  Text:  Ninja CREAMi 7 Programs Ice Cream Maker Ice Cream Maker Maker Ice Cream Maker for Making Ice Cream, Gelato, Sorbet, Smoothie Bowls or Milkshakes, Black/Silver, 1.4L, NC300EU
+[INFO] - [29-11-2025 01:14:46] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[10]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[6]  Text:  16,974
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[6]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[11]  Text:  Logitech G29 Steering Wheel + Pedals PlayStation 4, Playstation 3 Black – Video Game Accessories (Steering Wheel + Pedals, PlayStation 4, Playstation 3, Analogue/Digital, Wired, USB 2.0, Black)
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[11]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[7]  Text:  15,999
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[7]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[12]  Text:  Logitech G29 Driving Force Racing Wheel For PS4
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[12]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[8]  Text:  15,999
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[8]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[13]  Text:  Logitech G29 Driving Force Racing Wheel and Floor Pedals, Real Force, Stainless Steel Paddle Shifters, Leather Steering Wheel Cover, Adjustable Floor Pedals, PS5/PS4/PS3/PC/Mac – Black
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[13]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[9]  Text:  15,777
+[INFO] - [29-11-2025 01:14:47] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[9]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[14]  Text:  Logitech G29 Driving Force Racing Wheel and Floor Pedals, Real Force Feedback, Stainless Steel Paddle Shifters, Leather Steering Wheel Cover for PS5, PS4, PC, Mac - Black
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[14]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[10]  Text:  15,660
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[10]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[15]  Text:  Logitech Dual-Motor Feedback Driving Force G29 Gaming Racing Wheel with Responsive Pedals
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[15]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[11]  Text:  15,519
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[11]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[16]  Text:  SteelSeries Apex Pro Mini Wireless - Mechanical Gaming Keyboard – World’s Fastest Keyboard – Adjustable Actuation – Compact 60% Form Factor – Bluetooth 5.0 – 2.4GHz - American (QWERTY) Layout
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[16]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[12]  Text:  14,880
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[12]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[17]  Text:  Logitech Driving Force G29 Racing Wheel For Ps4, Ps3 and Pc, Black
+[INFO] - [29-11-2025 01:14:48] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[17]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[13]  Text:  14,299
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[13]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[18]  Text:  Joy-Con Nintendo Switch - OLED Model - White
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[18]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[14]  Text:  14,265
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[14]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[19]  Text:  Logitech G PRO X 2 LIGHTSPEED Wireless Gaming Headset, Detachable Boom Mic, 50mm Graphene Drivers, DTS: X Headphone 2.0—7.1 Surround, Bluetooth/USB/3.5mm Aux, for PC, PS5, PS4, Nintendo Switch - Black
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[19]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[15]  Text:  14,024
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[15]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[20]  Text:  Nintendo Switch – OLED Model w/Neon Red & Neon Blue Joy-Con
+[INFO] - [29-11-2025 01:14:49] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[20]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[16]  Text:  165,000
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[16]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[21]  Text:  Next Level Racing Flight Simulator Cockpit: Boeing Commercial Edition (NLR-S027)
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[21]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[17]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[17]  Text:  565
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[17]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[22]  Text:  Video Game Console with 453 Built-in Games, 8-Bit System, White, Includes 2 Controllers and AV Cable
+[INFO] - [29-11-2025 01:14:50] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[22]
+[INFO] - [29-11-2025 01:15:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 01:15:25] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[24]  Text:  Your Browsing History
+[INFO] - [29-11-2025 01:15:25] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[24]
+[INFO] - [29-11-2025 01:16:56] [main] [AutomationFramework.Utilities.Utility] - Clicked on the element normally: By.xpath: (//a[normalize-space()='Next'])[1]
+[INFO] - [29-11-2025 01:16:56] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:16:56] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[5]  Text:  Your Browsing History
+[INFO] - [29-11-2025 01:16:56] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[5]
+[INFO] - [29-11-2025 01:16:56] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[1]  Text:  13,667
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[1]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[6]  Text:  Revolution 5 Pro Controller - Black
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[6]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[2]  Text:  13,490
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[2]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//h2)[7]  Text:  SMEG, BLF03BLEU, 1.5 L Blender, 4 Speed Levels, 4 Automatic Programmes, Removable Double Blade, Transparent Lid Opening with Dosing Cap, Non-Slip, 800 W, Black
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//h2)[7]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Getting text from the element:  By.xpath: (//span[@class='a-price-whole'])[3]  Text:  13,240
+[INFO] - [29-11-2025 01:16:57] [main] [AutomationFramework.Utilities.Utility] - Finding element:  By.xpath: (//span[@class='a-price-whole'])[3]

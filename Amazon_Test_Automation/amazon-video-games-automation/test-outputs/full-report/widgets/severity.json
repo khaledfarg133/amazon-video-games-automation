@@ -1,0 +1,1 @@
+[{"uid":"82c3431fc87b9759","name":"success","time":{"start":1764617950319,"stop":1764618234802,"duration":284483},"status":"passed","severity":"normal"},{"uid":"c518dfb15c02e41c","name":"userCanFilterVideoGames_AddEligibleProductsToCart_AndValidateBasket","time":{"start":1764625180518,"stop":1764625225874,"duration":45356},"status":"passed","severity":"normal"}]
